@@ -40,9 +40,8 @@ This project demonstrates distributed data processing using **Hadoop (HDFS + Map
 - Discussed scalability of pairwise comparisons.  
 
 **Q12 — Author Influence Network:**  
-- Built directed graph (author1 → author2) based on publication gap:  
-  `0 < (year_B - year_A) ≤ X`  
-- Compared:
+- Built directed graph (author1 → author2) based on publication gap:   
+- Compared effect of the time window: X
   - X = 3 → 10853 edges  
   - X = 5 → 12241 edges  
   - X = 10 → 14460 edges  
